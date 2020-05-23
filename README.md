@@ -17,7 +17,7 @@ The following describes the OpenShift installation process:
     - Storage for ignition file (object storage, Web server, FTP server)
     - Create ignition files
 
-    (Preparation check)[preparation.md]
+    [Preparation check](preparation.md)
 
 2. Cluster initialization
 
@@ -30,7 +30,7 @@ The following describes the OpenShift installation process:
         - Loop - waiting for critical Kubernetes pods in masters
         - Complete bootkube service
 
-        (Bootstrap check)[bootstrap.md]
+        [Bootstrap check](bootstrap.md)
 
     2. Master nodes startup
 
@@ -40,7 +40,7 @@ The following describes the OpenShift installation process:
         - Initialize machine configuration operator
         - Create cluster operators and initialize cluster
 
-        (Master check)[master.md]
+        [Master check](master.md)
 
     3. Worker nodes startup
 
@@ -49,4 +49,4 @@ The following describes the OpenShift installation process:
         - Set up ingress controller and router
         - Finish processing of cluster operators
 
-        (Worker check)[worker.md]
+        [Worker check](worker.md)
