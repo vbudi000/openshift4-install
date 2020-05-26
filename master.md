@@ -26,11 +26,9 @@ Eventually the only ones that are not Ready should be authentication and console
 
 The following are some of the potential problems that can arises when installing masters:
 
-- Masters does not have enough computing power (ie CPU, memory, storage) - you can get the bootstrap manifest insertion failed such as:
+- Masters does not have enough computing power (ie CPU, memory, storage) - you can get the bootstrap manifest insertion failed such as: <br> ![manifest failed](images/03-manifest-failed.jpg)
 
-![manifest failed](images/03-manifest-failed.jpg)
-
-- Masters passed bootstrap but does not have enough computing power - 
+- Masters passed bootstrap but does not have enough computing power - multiple cluster operators fail. <br> ![co not there](images/03-minico.png)
 
 - Workers are not provisioned from the cluster (Public cloud platform) = check MachineSet and Machine operator - see [worker trouble shooting](worker.md).
 
