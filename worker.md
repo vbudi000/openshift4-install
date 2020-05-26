@@ -4,6 +4,9 @@ Once you try to work on the worker nodes, typically most of the infrastructure a
 
 Worker nodes are needed to initialize the authentication cluster operator and console cluster operator.
 
+## Pending CSR
+
+ 
 ## Cluster operator
 
 Lets look at more detail on clusteroperator:
@@ -26,4 +29,4 @@ Ingress controller structure is shown in the following diagram:
 
 ## Image registry
 
-In OpenShift, Image Registry is an integral component for running applications. It is a stateful operator that must be backed up with a Physical storage. The storage is allocated by the image registry operator. If the initial size and storage class is not ideal, you should modify it as soon as possible to avoid data loss for stored application images. 
+In OpenShift, Image Registry is an integral component for running applications. It is a stateful operator that must be backed up with a Physical storage. The storage is allocated by the image registry operator. If the initial size and storage class is not ideal, you should modify it as soon as possible to avoid data loss for stored application images.

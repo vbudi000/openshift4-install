@@ -30,7 +30,7 @@ Your cluster and hostnames would then resides in the sub-domain of `clustername.
 Check and make sure that you can perform forward and reverse lookup for each entries in the table above:
 
 - Forward lookup: `nslookup <hostname>` or `dig <hostname>` <br> ![01-forwardlookup.png](images/01-forwardlookup.png)
-- Reverse lookup: `nslookup <ipaddr>` or `dig -x <ipaddr>` <br> ![01-reverselookup.png](images/02-reverselookup.png)
+- Reverse lookup: `nslookup <ipaddr>` or `dig -x <ipaddr>` <br> ![01-reverselookup.png](images/01-reverselookup.png)
 
 Also check to make sure that the hostnames of `etcd-n.clustername.base-domain` (where n=0/1/2) can resolve to the master IP addresses:
 
