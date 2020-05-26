@@ -42,7 +42,7 @@ The following describes the OpenShift installation process:
 
     This short video demonstrate on how a cluster is initialized.
 
-    <A href=https://www.youtube.com/watch?v=fjSG5R80dQw>![OpenShift 4.x Installation](http://img.youtube.com/vi/fjSG5R80dQw/0.jpg)</A>
+    ![OpenShift 4.x Installation](http://img.youtube.com/vi/fjSG5R80dQw/0.jpg)
 
     [![OpenShift 4.x Installation](http://img.youtube.com/vi/fjSG5R80dQw/0.jpg)](https://www.youtube.com/watch?v=fjSG5R80dQw)
 
