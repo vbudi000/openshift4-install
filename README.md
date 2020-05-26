@@ -39,9 +39,12 @@ The following describes the OpenShift installation process:
     [Preparation check](preparation.md)
 
 2. Cluster initialization
+
     This short video demonstrate on how a cluster is initialized.
 
-    [![OpenShift 4.x Installation](http://img.youtube.com/vi/fjSG5R80dQw/0.jpg)](https://www.youtube.com/watch?v=fjSG5R80dQw "OpenShift 4.x Installation")
+    <A href=https://www.youtube.com/watch?v=fjSG5R80dQw>![OpenShift 4.x Installation](http://img.youtube.com/vi/fjSG5R80dQw/0.jpg)</A>
+
+    [![OpenShift 4.x Installation](http://img.youtube.com/vi/fjSG5R80dQw/0.jpg)](https://www.youtube.com/watch?v=fjSG5R80dQw)
 
     1. Bootstrap node startup
 
