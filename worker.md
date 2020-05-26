@@ -6,7 +6,8 @@ Worker nodes are needed to initialize the authentication cluster operator and co
 
 ## Pending CSR
 
- 
+Depending on the initialization of the worker, there may be some Certificate Signing Requests (CSRs) that are not automatically approved. You may need to approve them manually - Symptom: worker machines are running, but the node is not created, kubelet shows unknown node
+
 ## Cluster operator
 
 Lets look at more detail on clusteroperator:
